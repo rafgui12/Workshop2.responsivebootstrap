@@ -16,7 +16,11 @@ $(function() {
     });
 
     $("#reserveButton").click(function(){
-        $("#carouselButton").children("i").addClass("fa-play");
+        $("#reserveButton").attr("data-toggle","modal");
+    });
+
+    $("#loginButton").click(function(){
+        $("#loginButton").attr("data-toggle","modal");
     });
 
 });
