@@ -16,11 +16,11 @@ $(function() {
     });
 
     $("#reserveButton").click(function(){
-        $("#reserveButton").attr("data-toggle","modal");
+        $("#reserveModal").modal('show');
     });
 
     $("#loginButton").click(function(){
-        $("#loginButton").attr("data-toggle","modal");
+        $("#loginModal").modal('show');
     });
 
 });
