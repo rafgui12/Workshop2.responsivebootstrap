@@ -14,4 +14,9 @@ $(function() {
             $("#carouselButton").children("i").addClass("fa-pause"); 
         }
     });
+
+    $("#reserveButton").click(function(){
+        $("#carouselButton").children("i").addClass("fa-play");
+    });
+
 });
